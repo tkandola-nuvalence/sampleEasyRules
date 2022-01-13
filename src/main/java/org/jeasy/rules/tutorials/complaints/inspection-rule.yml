@@ -1,0 +1,6 @@
+name: "inspection-rule"
+description: "Three complaints trigger an inspection"
+priority: 2
+condition: "complaints.size() >= 3"
+actions:
+  - "System.out.println(\"This employer requires an inspection\");"
